@@ -3,6 +3,7 @@ package UsingMethod;
 public class PrintArrayNumber {
 	public static void printArraynums(int[] array) {
 		for (int i = 0; i < array.length; i++) {
+			if(array[i]%2==0)
 			System.out.println(array[i]);
 		}
 	}

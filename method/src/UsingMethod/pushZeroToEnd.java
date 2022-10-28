@@ -1,6 +1,6 @@
 package UsingMethod;
 
-public class newsa {
+public class pushZeroToEnd {
 	public static int[] zeromoves(int[] array) {
 		int count = 0;
 		int firstLength = array.length;
