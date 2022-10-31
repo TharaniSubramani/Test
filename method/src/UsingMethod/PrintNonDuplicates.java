@@ -10,6 +10,7 @@ public class PrintNonDuplicates {
 					array[count++] = array[i];
 				}
 			}
+			//hello
 		}
 		return array;
 	}

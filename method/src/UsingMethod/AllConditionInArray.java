@@ -49,7 +49,7 @@ return array;
 		}
 		System.out.println(count);
 		return array;
-
+//
 	}
 
 	public static int[] sumOfArray(int[] array) {

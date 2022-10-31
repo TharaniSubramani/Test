@@ -15,6 +15,6 @@ public class Choclate {
 		return numberOfChoclate;
 	}
 	public static void main(String[] args) {
-		System.out.println(NoOfChoclate(100,3,4));
+		System.out.println(NoOfChoclate(100,3,3));
 	}
 }

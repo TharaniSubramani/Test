@@ -18,8 +18,7 @@ public class FindMissingNumber {
 			int values = sc.nextInt();
 			array[i] = values;
 			sum = sum + array[i];
-		}
-		if (sum != sumOfn) {
+		
 			missingNum = sumOfn - sum;
 		}
 		return missingNum;
