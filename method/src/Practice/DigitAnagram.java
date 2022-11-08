@@ -1,9 +1,13 @@
 package Practice;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 /*Given an array of integers a, your task is to count the number of pairs i & j ( 0 ≤ i < j < a.length), 
 such that a[i] and a[j] are digit anagrams.*/
 
 class DigitAnagram {
+
 	public static boolean digitanagram(int number1, int number2) {
 		String firstNumber = Integer.toString(number1);
 		String secondNumber = Integer.toString(number2);
@@ -12,6 +16,7 @@ class DigitAnagram {
 		if (firstNumber.length() == secondNumber.length()) {
 			for (int i = 0; i < firstNumber.length(); i++) {
 				for (int j = 0; j < secondNumber.length(); j++) {
+
 					if (firstNumber.charAt(i) == secondNumber.charAt(j)) {
 						count++;
 					}
@@ -42,7 +47,7 @@ class DigitAnagram {
 
 	public static void main(String[] args) {
 		int[] a = { 25, 35, 872, 228, 53, 278, 872 };
-		System.out.println(digitanagramarray(a));
+		 System.out.println(digitanagramarray(a));
 		// System.out.println(digitanagram(25,52));
 	}
 }

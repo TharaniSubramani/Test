@@ -7,11 +7,14 @@ public class usingTreeSet {
 	
 	public static void main(String []args) {
 		TreeSet<Integer>array=new TreeSet<>();
-		array.add(10);
-		array.add(20);
-		array.add(10);
-		array.add(20);
-		array.add(50);
+		int number1=123; int div=0,rem=0;
+		while (number1 > 0) {
+			div = number1 / 10;
+			
+			rem = number1 % 10;
+			number1 = div;
+			array.add(rem);
+		}
 		for (Integer x : array) {
 			System.out.println(x);
 		}
