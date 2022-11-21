@@ -9,8 +9,9 @@ public class HashMapTutorial {
 		name.put(1, "Tharani");
 		name.put(2, "Pawani Sri");
 		name.put(1, "Tamil");
+		
 		for(Map.Entry<Integer, String> e: name.entrySet()) {
-			System.out.println(e.getKey()+ " " + e.getValue());
+			System.out.println(e.getKey()+ ":" + e.getValue());
 		}
 			
 	}

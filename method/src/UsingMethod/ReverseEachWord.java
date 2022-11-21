@@ -7,6 +7,8 @@ public class ReverseEachWord {
 		for (int i = 0; i < array.length; i++) {
 			String reverseWord = ReveseString.reverseString(array[i]);
 			result = result + reverseWord.concat(" ");
+			
+
 		}
 		return result;		
 	}
